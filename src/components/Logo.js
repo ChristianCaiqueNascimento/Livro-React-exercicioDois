@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Logo = () => {
     return (
         <div>
-            <a href="#">
+            <Link to="/">
                 <h1 className="logo">
                     <span>Editora MaujorTec</span>
                 </h1>
-            </a>
+            </Link>
         </div>
-    )
-}
+    );
+};
 export default Logo;
