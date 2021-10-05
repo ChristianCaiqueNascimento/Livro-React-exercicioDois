@@ -24,6 +24,7 @@ class App extends Component {
             <Route exact path="/catalogo" render={() => <Catalogo />} />
             <Route component={NotFound} />
           </Switch>
+          <Rodape />
         </>
       </Router>
     )
